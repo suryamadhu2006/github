@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .middle {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .title h1 {
+      font-size: 50px;
+      color: #4285f4;
+      margin-bottom: 20px;
+    }
+
+    .search input[type="text"] {
+      padding: 10px;
+      width: 300px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .search button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-left: 10px;
+      border: none;
+      background-color: #4285f4;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .imagesec {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      background: rgb(189, 189, 189);
+      padding: 30px;
+      margin-top: 50px;
+    }
+
+    .image-card {
+      display: flex;
+      align-items: center;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      gap: 20px;
+    }
+
+    .image-card img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .text-content {
+      max-width: 600px;
+    }
+
+    .text-content p {
+      margin: 0 0 10px 0;
+    }
+
+    .text-content a {
+      text-decoration: none;
+      color: #4285f4;
+      font-weight: bold;
+    }
+
+    .text-content a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="middle">
+    <div class="title">
+      <h1>GOOGLE</h1>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Search here...">
+      <button>Search</button>
+    </div>
+  </div>
+
+  <div class="imagesec">
+    <div class="image-card">
+      <img src="madhu3.jpg" alt="loading">
+      <div class="text-content">
+        <p>This is a short paragraph describing the first image. You can add anything here.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="image-card">
+      <img src="madhu8.jpg" alt="loading">
+      <div class="text-content">
+        <p>This is a short paragraph describing the second image. Make it relevant to the picture.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="image-card">
+      <img src="madhu3.jpg" alt="loading">
+      <div class="text-content">
+        <p>This is a short paragraph describing the third image. You can change the content later.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
